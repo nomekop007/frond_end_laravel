@@ -1,0 +1,246 @@
+
+.img img{
+	width: 100%; 
+height: 600px;
+	background-color: rgb(50,50,50);
+background-blend-mode: soft-light; 
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.img1{
+background: url('../img/img1.jpg');
+
+}
+.img2{
+background: url('../img/img2.jpg');
+}
+
+.autoZoom img{
+	 animation-name: agrandar;
+	animation-duration: 5s;
+	  animation-iteration-count: infinite;
+}
+
+@keyframes agrandar{
+0% {  
+transition: transform .2s;
+}
+100%{
+	transform: scale(1.5);
+	webkit-trasform: scale(1.5);
+	}
+}
+
+.img3{
+background: url('../img/img3.jpg');
+}
+.img4{
+background: url('../img/img4.jpg');
+
+}
+.img5{
+background: url('../img/img5.jpg'); 
+}
+
+.menu{
+background: url('../img/menu.jpg');
+	width: 100%; 
+height: auto;
+	background-color: rgb(50,50,50);
+background-blend-mode: soft-light; 
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed; /* efecto paradax*/
+
+}
+
+.fondoNegro{
+	background: black;
+		width: 100%; 
+height: auto;
+}
+
+.fondoNegro2{
+	background: black;
+		width: 100%; 
+height: auto;
+}
+.verduras{
+background: url('../img/verduras2.jpg');
+	width: 100%; 
+height: auto;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.tam img{
+	width: 100%; 
+height: 400px;	
+opacity: 0;
+}
+.mapa {
+	background: url('../img/map.jpg');
+	width: 100%; 
+height: 500px;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: rgb(50,50,50);
+background-blend-mode: soft-light;
+}
+
+
+.mapa:hover{ /* funcion de aclaracion*/
+opacity: .7;
+}
+
+.destello:hover{
+	  box-shadow: 0px 0px 30px 20px orange;
+}
+
+.fondo2{
+	background: url('../img/fondo.jpg');
+	width: 100%; 
+height: auto;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: rgb(50,50,50);
+background-blend-mode: soft-light;
+background-attachment: fixed;
+}
+
+.sello img{
+	width: 10%;
+	padding-top: 60px;
+}
+
+.trasp{
+	opacity: 0.9;
+	background: black;
+
+}
+.abajo{
+	padding-bottom: 50px;
+}
+
+.texto{
+	padding: 100px;
+	font-size : 55px;
+	color: white;
+}
+.texto2{
+	font-size : 15px;
+	color: white;
+}
+.blanco  span{
+	color: white;
+	font-size: 13px;
+}
+.padding{
+	padding: 100px;
+	padding-top: 50px;
+}
+.pad-abajo {
+	padding-top: 100px;
+	
+}
+
+.m-img img{
+		width: 80%;
+		height: auto;
+}
+.abajo{
+	padding-bottom: 20px;
+	padding-top: 60px;	
+}
+.left{
+	padding-left : 100px;
+}
+.cursiva1 span{
+	font-family: 'Italianno', cursive;
+	font-size: 30px; 
+}
+.titulo span{
+	font-family: 'Italianno', cursive;
+	font-size: 30px; 
+}
+
+.cursiva span , h5{
+	font-family: 'Italianno', cursive;
+	font-size: 30px; 
+}
+
+.cursi{
+	font-family: 'Italianno', cursive;
+	padding-bottom: 20px;
+}
+
+.right{
+	padding-right: 70px;
+}
+.naranjo span{
+	color: #ff934c;
+
+}
+
+.dorado span{
+	color: #D1A835;
+}
+
+.cursi2{
+	font-family: 'Italianno', cursive;
+}
+.blanco2{
+	color: white;
+}
+.dorado2{
+	color: #FFE724;
+}
+.negro{
+	color: black;
+}
+
+.d-oscuro{
+	color: #D1A835;
+}
+
+.abajo2 h6{
+	padding-bottom: 50px;
+}
+
+
+.arriba{
+	padding-bottom: 120px;
+}
+ .dora2 small{
+ 	color: #D1A835;
+ }
+
+
+.color:hover{ 
+	/*cambiar de color los iconos */
+background-blend-mode: soft-light;
+color: rgb(200, 150, 0  );
+}
+
+.plomo{
+background-color:  #403d3d;
+}
+.color-bt{
+background-color:  #d2b867;	
+}
+
+.tam i{
+	font-size: 40px;
+}
+.rrss li{
+	display: inline;	
+}
+
+.tam2 h3{
+	font-size: 40px;
+}
+
+.tam-bt{
+	width: 150px;
+}
